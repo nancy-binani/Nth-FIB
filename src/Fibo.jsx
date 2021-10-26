@@ -24,7 +24,7 @@ const Fibo = (e) => {
     <div>
        
           <input
-          type="number"
+          type="text"
           value={taskData}
           onChange={e => setTaskData(e.target.value)}
           
